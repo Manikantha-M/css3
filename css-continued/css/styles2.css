@@ -1,0 +1,11 @@
+/* Font Awesome icons */
+/* Add a link inside the head element to use font awesome icons. */
+
+.fa-home {
+  color: orange;
+  font-size: 3rem;
+}
+span {
+  font-size: 3rem;
+  color: #1877f2;
+}

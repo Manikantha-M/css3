@@ -1,0 +1,32 @@
+/* border-radius, Negative margin */
+/* border-radius
+if property has one value, then it applies for all the corners.
+if property has two values, then top-left & bottom-right    top-right & bottom-left 
+if the property has four values, then they represent  top-left top-right bottom-right bottom-left
+*/
+
+.one {
+  background: red;
+  color: white;
+  margin: 70px;
+  padding: 20px;
+  border: 15px solid black;
+  border-radius: 30px;
+}
+.two {
+  background: blue;
+  color: white;
+  margin: 70px;
+  padding: 20px;
+  border: 7px dotted deepskyblue;
+  border-radius: 35%;
+  margin-top: -70px;
+}
+div {
+  border-radius: 91px 9px 91px 9px;
+  border: 10px solid rgb(9, 111, 136);
+  background-color: rgb(255, 255, 255);
+  margin: 150px;
+  width: 200px;
+  height: 200px;
+}

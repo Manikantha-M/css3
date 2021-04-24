@@ -1,0 +1,29 @@
+/* background-position */
+/* Using background-position property we can move the image to the center,left,right,top,bottom.
+we can even use percentages -- 0% 0% will be top-left, 100% 100% will be bottom-right. */
+
+div {
+  height: 300px;
+  color: white;
+  border: 2px solid red;
+}
+.big-img {
+  background: url("./big.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+.small-img {
+  background: url("./small1.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-position: left;
+  background-position: right;
+  background-position: bottom;
+  background-position: top;
+  background-position: 20% 50%;
+}
+.img3 {
+  background: url("./img3.jpg");
+  background-size: contain;
+}

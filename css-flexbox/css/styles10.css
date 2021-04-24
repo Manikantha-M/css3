@@ -1,0 +1,31 @@
+/* flex-shrink */
+/* flex-shrink property is used to shrink respective flex item in a rate specified by its value. The default value is 1, means all flex items by default shrink. The values can be 0,1,2,3,... */
+.box {
+  font-size: 2rem;
+  padding: 2rem;
+  text-align: center;
+}
+.box-1 {
+  background: red;
+  width: 350px;
+  flex-shrink: 1;
+}
+.box-2 {
+  background: green;
+}
+.box-3 {
+  background: blue;
+}
+.box-4 {
+  background: cyan;
+  width: 300px;
+  flex-shrink: 2;
+}
+.box-5 {
+  background: deeppink;
+}
+
+.container {
+  border: 2px solid black;
+  display: flex;
+}

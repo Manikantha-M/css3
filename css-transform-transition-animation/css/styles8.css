@@ -1,0 +1,40 @@
+/* CSS Animation */
+/* An animation lets an element gradually change from one style to another. 
+Keyframes hold what styles the element will have at certain times. 
+We have animation-name, animation-duration, animation-iteration-count properties.*/
+
+div {
+  width: 150px;
+  height: 150px;
+  background: green;
+  margin: 200px auto;
+  animation-name: anim;
+  animation-duration: 10s;
+  animation-iteration-count: 2;
+}
+@keyframes anim {
+  0% {
+    transform: translateY(-30px);
+    background: coral;
+  }
+  25% {
+    transform: translateY(30px);
+    transform: skew(35deg, 45deg);
+    background: teal;
+  }
+  50% {
+    transform: translateY(30px);
+    transform: rotate(270deg);
+    background: deeppink;
+  }
+  75% {
+    transform: translateY(-30px);
+    transform: scale(2);
+    background: navy;
+  }
+  100% {
+    transform: translateX(30px);
+    transform: scale(0.5);
+    background: sienna;
+  }
+}

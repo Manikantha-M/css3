@@ -1,0 +1,22 @@
+/* transform:skew() */
+/* The skew() defines a transformation that skews an element on the 2D plane. 
+To be specific, skewX() for x-direction, skewY() for y-direction.
+skew() for both x and y directions. */
+
+div {
+  width: 150px;
+  height: 150px;
+  margin: 50px auto;
+}
+.one {
+  background: red;
+  transform: skewX(45deg);
+}
+.two {
+  background: green;
+  transform: skewY(45deg);
+}
+.three {
+  background: blue;
+  transform: skew(40deg, 30deg);
+}

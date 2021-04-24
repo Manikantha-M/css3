@@ -1,0 +1,39 @@
+/* CSS Variables */
+/* Also known as custom properties. 
+CSS Variables allow a value to be stored in one place, then referenced in multiple other places. 
+--varName:value 
+property:var(--varName) 
+CSS variables can have a global or local scope. 
+Global variables can be used through the entire document. 
+To create a variable with global scope, declare it inside the :root pseudo-class selector. 
+Local variables can be declared inside an element, the element and its descendants can use those local variables. Outside the element we cannot use those local variables. This is what meant by css variables having local scope. */
+
+:root {
+  --fcolor: teal;
+  --scolor: deeppink;
+  --vtransition: all 1s linear;
+  --spacing: 5px;
+}
+h1 {
+  color: var(--fcolor);
+}
+h2 {
+  color: var(--fcolor);
+  transition: var(--vtransition);
+}
+p {
+  letter-spacing: var(--spacing);
+  transition: var(--vtransition);
+}
+h2:hover {
+  color: var(--scolor);
+}
+p:hover {
+  color: var(--scolor);
+}
+div {
+  --tcolor: gold;
+}
+.local {
+  color: var(--tcolor);
+}

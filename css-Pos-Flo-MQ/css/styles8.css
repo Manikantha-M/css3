@@ -1,0 +1,32 @@
+/* z-index */
+/* The z-index property specifies the stack order of an element. 
+An element with greater z-index value is always in front of an element with a lower z-index value.
+The default value for z-index property is 0. 
+The z-index property does not work on position:static */
+
+img {
+  width: 200px;
+  height: 200px;
+  position: absolute;
+}
+.banner {
+  width: 75vw;
+  height: 75vh;
+  border: 3px solid green;
+  position: relative;
+}
+.img1 {
+  top: 30px;
+  left: 30px;
+  z-index: 3;
+}
+.img2 {
+  top: 80px;
+  left: 80px;
+  z-index: 2;
+}
+.img3 {
+  top: 130px;
+  left: 130px;
+  z-index: 1;
+}

@@ -1,0 +1,24 @@
+/* transform:scale() */
+/* Using scale() we can scale the element.
+To be specific, using scaleX() we can scale the element in x-direction and using scaleY() we can scale the element in y-direction.
+Using scale() we can scale the element in both x and y directions.
+If we pass a value for x, then 50% of it will be applied on right side and remaining 50% of it will be applied on left side. 
+If we pass a value for y, then 50% of it will be applied on top and remaining 50% of it will be applied on bottom. */
+
+div {
+  width: 150px;
+  height: 150px;
+  margin: 200px auto;
+}
+.one {
+  background: red;
+  transform: scaleX(0.5);
+}
+.two {
+  background: blue;
+  transform: scaleY(1.5);
+}
+.three {
+  background: green;
+  transform: scale(2, 2);
+}

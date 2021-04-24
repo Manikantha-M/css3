@@ -1,0 +1,44 @@
+/* transform:rotate() */
+/* To be specific, rotateX() will rotate the element in x-direction. 
+rotateY() will rotate the element in y-direction. 
+rotateZ() will rotate the element in z-direction, we can also omit Z in rotateZ() and simply do rotate(), which is the same as rotateZ(). */
+
+img {
+  width: 300px;
+  height: 300px;
+  display: block;
+  margin: 10px auto;
+}
+div {
+  width: 200px;
+  height: 200px;
+  display: inline-block;
+  margin: 30px;
+}
+p {
+  border: 2px dashed black;
+  font-size: 25px;
+  text-align: center;
+  margin: 80px 65px;
+}
+.one {
+  background: red;
+  transition: all 2s linear;
+}
+.two {
+  background: green;
+  transition: all 2s linear;
+}
+.three {
+  background: blue;
+  transition: all 2s linear;
+}
+.one:hover {
+  transform: rotateX(180deg);
+}
+.two:hover {
+  transform: rotateY(180deg);
+}
+.three:hover {
+  transform: rotateZ(180deg);
+}

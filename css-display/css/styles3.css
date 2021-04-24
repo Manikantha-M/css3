@@ -1,0 +1,24 @@
+/* box-sizing */
+/* For box-sizing property if the value is content-box(default value), then padding will be applied outside the element.
+If the value is border-box, then padding will be applied within the element. */
+.box1,
+.box2,
+.box3 {
+  width: 200px;
+  height: 200px;
+  font-size: 30px;
+  color: white;
+}
+.box1 {
+  background: red;
+  padding: 20px;
+  box-sizing: content-box;
+}
+.box2 {
+  background: blue;
+}
+.box3 {
+  background: green;
+  padding: 20px;
+  box-sizing: border-box;
+}

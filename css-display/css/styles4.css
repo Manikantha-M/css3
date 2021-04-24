@@ -1,0 +1,26 @@
+/* opacity, visibility, display:none */
+/* opacity property has values from 0-1, value 0 equals fully transparent and value 1 equals no transparency.*/
+/* When display property has value none, then element will be hidden and the space is collapsed.(space can be used for a new element) */
+/* When visibility property has value hidden, then element will be hidden. But space will not be hidden. */
+
+div {
+  background: red;
+  margin: 10px;
+  color: white;
+  font-size: 2rem;
+}
+.one {
+  opacity: 1;
+}
+.two {
+  visibility: hidden;
+}
+.three {
+  opacity: 0.2;
+}
+.four {
+  opacity: 0.5;
+}
+.five {
+  display: none;
+}

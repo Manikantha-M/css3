@@ -1,0 +1,18 @@
+/* float, clear */
+/* float property :
+The float property places an element on the left or right side of its container. Any element that follows the floated element will flow around the floated element on the other side. 
+clear property :
+If I don't want my elemet to flow around a floated element then I have to use clear property. Make sure that the value for clear property must match with float property.*/
+
+img {
+  float: right;
+}
+.p1 {
+  clear: right;
+}
+.one {
+  float: left;
+}
+.two {
+  float: right;
+}

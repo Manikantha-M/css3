@@ -1,0 +1,24 @@
+/* CSS Grid */
+/* used to create two dimensional layout. */
+/* display:grid, grid-template-columns property */
+/* Parent div will be called as grid container. Children divs will be called as grid items. 
+display:grid -- generates a block level grid. 
+grid-template-columns property :
+Defines the columns of the grid with a space-separated list of values. */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.cell {
+  padding: 2rem;
+  background: #dedede;
+  text-align: center;
+  border: 1px solid red;
+}
+.container {
+  border: 4px solid black;
+  display: grid;
+  grid-template-columns: 200px 400px 150px;
+}

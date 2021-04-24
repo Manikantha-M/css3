@@ -1,0 +1,43 @@
+/* Media Queries */
+/* Media Queries are used for Responsive design.
+Using Media Queries we can style elements for different screen sizes. 
+We will use properties min-width, max-width in Media Queries.
+
+Mobile First
+A Mobile First approach involves designing a desktop site starting with the mobile version, which is then adapted to larger screens.*/
+
+body {
+  background: cadetblue;
+}
+.banner {
+  background: coral;
+}
+h1 {
+  color: white;
+  text-align: center;
+  text-decoration: underline;
+  text-transform: capitalize;
+}
+
+@media screen and (min-width: 576px) {
+  body {
+    background: orchid;
+  }
+  .banner {
+    background: seagreen;
+  }
+  h1 {
+    color: black;
+    font-size: 50px;
+  }
+}
+
+@media screen and (min-width: 920px) {
+  body {
+    background: seagreen;
+  }
+  .banner {
+    background: orchid;
+    margin-top: 10rem;
+  }
+}

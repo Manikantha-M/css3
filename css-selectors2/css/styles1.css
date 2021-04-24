@@ -1,0 +1,27 @@
+/* CSS Combinators */
+/* A CSS selector can contain more than one simple selector. Between the simple selectors, we can include a combinator. 
+There are four different combinators in CSS: 
+1. descendant selector (space) 
+ The descendant selector is used to select the descendants of an element.
+2. Child Selector (>) 
+ The child selector is used to select the children of an element. 
+3. Adjacent Sibling Selector (+) 
+ The adjacent sibling selector is used to select the adjacent sibling of an element. 
+4. General Sibling Selector (~) 
+ The general sibling selector is used to select the siblings of an element. */
+
+.div1 ul {
+  background: red;
+}
+.div2 > h1 {
+  background: blue;
+}
+.div3 + h1 {
+  background: deeppink;
+}
+.div3 p + p {
+  background: green;
+}
+.div4 ~ h1 {
+  background: coral;
+}

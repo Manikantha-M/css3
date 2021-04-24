@@ -1,0 +1,23 @@
+/* Rem unit */
+/*
+rem is a relative unit, depends on the root element(html element), So html selector must be defined.
+If html selector is not defined, then rem unit depends on default browser styles.
+1rem = base value (16px) * 1 = 16px 
+ */
+
+/* html is our root element */
+html {
+  font-size: 30px;
+}
+/* parent */
+div {
+  font-size: 20px;
+}
+.one {
+  font-size: 2rem;
+}
+/* 2rem = 2 * 30px = 60px */
+.two {
+  font-size: 3rem;
+}
+/* 3rem = 3 * 30px = 90px */

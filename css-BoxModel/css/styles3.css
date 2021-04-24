@@ -1,0 +1,27 @@
+/* border */
+/* shorthand border takes -- width style color  */
+
+.one {
+  background: red;
+  color: white;
+  border-style: solid;
+  border-width: 10px;
+  border-color: teal;
+}
+.two {
+  background: blue;
+  color: white;
+  border: 0.5rem dashed red;
+}
+.three {
+  background: green;
+  color: white;
+  border-bottom: 0.5rem dotted black;
+}
+.four {
+  background: coral;
+  color: white;
+  border-bottom-width: 10px;
+  border-bottom-style: double;
+  border-bottom-color: cyan;
+}

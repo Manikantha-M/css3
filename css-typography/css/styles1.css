@@ -1,0 +1,11 @@
+/* font-family, font-size */
+/* font-size -- size of the font 
+font-family -- sets the font of the text */
+
+body {
+  font-family: Helvetica;
+}
+h1 {
+  font-family: Verdana;
+  font-size: 50px;
+}

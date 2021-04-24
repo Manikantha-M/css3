@@ -1,0 +1,24 @@
+/* HEX Values */
+/*  #RRGGBB 
+0123456789 A(10) B(11)
+C(12) D(13) E(14) F(15)
+#FF0000 -- RED
+#00FF00 -- GREEN
+#0000FF -- BLUE
+*/
+#one {
+  color: #f00;
+  background: #000;
+}
+#two {
+  color: #fff;
+  background: #0f0;
+}
+#three {
+  color: #00f;
+  background: #f15025;
+}
+#four {
+  color: #f234ad;
+  background: #222;
+}

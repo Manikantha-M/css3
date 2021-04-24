@@ -1,0 +1,47 @@
+/* align-content */
+/* align-content property is used for cross axis alignment. */
+/* When there is a single line of flex items in a large flex container : 
+stretch(default) -- flex items will be stretched to fit the container height. 
+flex-start -- flex items will move to start of the cross axis. 
+flex-end -- flex items will move to end of the cross axis. 
+center -- flex items will move to center of the cross axis. 
+We also have space-between, space-around values. */
+
+/* When we have multiple lines of flex items(using flex-wrap:wrap) in a large flex container : 
+stretch(default) -- all lines will be clubbed together and stretched to fit their container. 
+flex-start -- all lines will be clubbed together and moves to start of the cross axis. 
+flex-end -- all lines will be clubbed together and moves to end of the cross axis. 
+center -- all lines will be clubbed together and moves to center of the cross axis. 
+We also have space-between and space-around values. */
+
+.box {
+  font-size: 2rem;
+  padding: 2rem;
+  text-align: center;
+}
+.box-1 {
+  background: red;
+}
+.box-2 {
+  background: green;
+}
+.box-3 {
+  background: blue;
+}
+.box-4 {
+  background: cyan;
+}
+.box-5 {
+  background: deeppink;
+}
+.box-6 {
+  background: coral;
+}
+
+.container {
+  border: 2px solid black;
+  display: flex;
+  flex-wrap: wrap;
+  height: 60vh;
+  align-content: center;
+}

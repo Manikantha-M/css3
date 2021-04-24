@@ -1,0 +1,17 @@
+/* Basic Horizontal centering */
+/* To center an inline element, we have to work with parent element. */
+
+/* to center a block element */
+h1 {
+  background: blue;
+  color: white;
+  width: 300px;
+  margin: 30px auto;
+}
+span {
+  background: red;
+  color: white;
+}
+body {
+  text-align: center;
+}

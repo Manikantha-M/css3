@@ -1,0 +1,50 @@
+/* grid-template-areas, grid-area */
+/* grid-template-areas property defines a grid template by referencing the names of the grid areas which are specified with the grid-area property. Repeating the name of a grid area causes the content to span those cells. The syntax itself provides a visualization of the structure of the grid. */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.cell {
+  padding: 2rem;
+  border: 3px solid red;
+  background: #dedede;
+  text-align: center;
+  color: white;
+}
+.cell-1 {
+  background: green;
+  grid-area: a;
+}
+.cell-2 {
+  background: hotpink;
+  grid-area: b;
+}
+.cell-3 {
+  background: blue;
+  grid-area: c;
+}
+.cell-4 {
+  background: coral;
+  grid-area: d;
+}
+.cell-5 {
+  background: cyan;
+  grid-area: e;
+}
+.cell-6 {
+  grid-area: f;
+}
+.container {
+  border: 5px solid black;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 100px 100px 100px 100px 100px;
+  grid-template-areas:
+    "a a b"
+    "a a b"
+    "c c b"
+    "d d d"
+    "e f f";
+}

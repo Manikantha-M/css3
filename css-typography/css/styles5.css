@@ -1,0 +1,22 @@
+/* text-align, text-indent */
+/* text-align -- aligns the text left side or center or right side. */
+/* text-indent -- number of spaces before the text. */
+
+body {
+  text-align: right;
+  text-align: center;
+  text-align: left;
+}
+.heading1 {
+  text-align: center;
+}
+.one {
+  text-align: right;
+}
+.heading2 {
+  text-align: left;
+}
+.two {
+  text-align: right;
+  text-indent: 16rem;
+}

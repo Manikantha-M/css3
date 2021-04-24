@@ -1,0 +1,19 @@
+/* Percent unit */
+/* Percent units are relative units/values. and they will depend on the parent */
+/* As parent changes its values, the changes affect the child.  */
+
+.outer {
+  width: 300px;
+  height: 300px;
+  background: blue;
+}
+/* inner depends on outer */
+/* Child depends on Parent. relative unit/value */
+
+.inner {
+  width: 50%;
+  height: 50%;
+  background: red;
+}
+/* width is 50% of the parent
+height is 50% of the parent */

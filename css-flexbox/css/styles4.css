@@ -1,0 +1,48 @@
+/* align-items */
+/* align-items property is used for cross axis alignment. */
+/* When there is a single line of flex items in a large flex container : 
+stretch(default) -- flex items will be stretched to fit the container height. 
+flex-start -- flex items will move to start of the cross axis. 
+flex-end -- flex items will move to end of the cross axis. 
+center -- flex items will move to center of the cross axis. 
+baseline -- flex items will be aligned on the baseline of the font. */
+
+/* When there are multiple lines of flex items(using flex-wrap:wrap) in a large flex container : 
+Each line will occupy even amount of space on the cross axis.
+stretch(default) -- each line will be stretched to fit its even space on the cross axis.
+flex-start -- each line will move to the start of its even space on the cross axis.
+flex-end -- each line will move to the end of its even space on the cross axis.
+center -- each line will move to the center of its even space on the cross axis. 
+We also have baseline value.*/
+
+.box {
+  font-size: 2rem;
+  padding: 2rem;
+  text-align: center;
+}
+.box-1 {
+  background: red;
+}
+.box-2 {
+  background: green;
+}
+.box-3 {
+  background: blue;
+}
+.box-4 {
+  background: cyan;
+}
+.box-5 {
+  background: deeppink;
+}
+.box-6 {
+  background: coral;
+}
+
+.container {
+  border: 2px solid black;
+  height: 50vh;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: baseline;
+}

@@ -1,0 +1,13 @@
+/* :root pseudo-class selector */
+/* :root pseudo-class selector selects the root element(html element) of the document.*/
+
+:root {
+  font-size: 15px;
+}
+p {
+  font-size: 20px;
+}
+div {
+  font-size: 4rem;
+}
+/* 4rem = 4*15 = 60px */

@@ -1,0 +1,55 @@
+/* align-content */
+/* align-content property is used for cross axis alignment. */
+/* When we have single row of grid items in a large grid container : 
+stretch(default) -- all grid items will be stretched to fit their container height. 
+flex-start -- all grid items will move to start of the cross axis. 
+flex-end -- all grid items will move to end of the cross axis. 
+center -- all grid items will move to center of the cross axis. 
+We also have space-between, space-around values. */
+
+/* When we have multiple rows of grid items in a large grid container :
+stretch(default) -- all grid items will be clubbed together and stretched to fit their container height. 
+flex-start -- all grid items will be clubbed together and moves to start of the cross axis. 
+flex-end -- all grid items will be clubbed together and moves to end of the cross axis. 
+center -- all grid items will be clubbed togehter and moves to center of the cross axis. 
+We also have space-between, space-around values. */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.cell {
+  padding: 2rem;
+  border: 3px solid red;
+  background: #dedede;
+  text-align: center;
+  color: white;
+}
+.cell-1 {
+  background: green;
+}
+.cell-2 {
+  background: hotpink;
+}
+.cell-3 {
+  background: blue;
+}
+.cell-4 {
+  background: coral;
+}
+.cell-5 {
+  background: cyan;
+}
+.container {
+  border: 5px solid black;
+  min-height: 80vh;
+  display: grid;
+  grid-template-columns: repeat(3, 100px);
+  align-content: stretch;
+  align-content: flex-start;
+  align-content: flex-end;
+  align-content: center;
+  align-content: space-between;
+  align-content: space-around;
+}

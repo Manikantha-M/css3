@@ -1,0 +1,66 @@
+/* align-items, justify-items, align-self, justify-self */
+/* align-items : 
+align-items property is used for cross axis alignment. 
+When we have single row of grid items in a large grid container : 
+stretch(default) -- all grid items will be stretched to fit their container height. 
+flex-start -- all grid items will move to start of the cross axis. 
+flex-end -- all grid items will move to end of the cross axis. 
+center -- all grid items will move to center of the cross axis. 
+baseline -- grid items will be aligned on the baseline of the font. 
+
+When we have multiple rows of grid items in a large grid container : 
+Each row will occupy even amount of space on the cross axis. 
+stretch(default) -- each row will be stretched to fit its even space on the cross axis. 
+flex-start -- each row will move to the start of its even space on the cross axis. 
+flex-end -- each row will move to the end of its even space on the cross axis. 
+center -- each row will move to the center of its even space on the cross axis. 
+We also have baseline value. */
+
+/* justify-items property is used for main axis alignment. It works the same for single row or multiple rows of grid items in a large grid container.
+stretch(default) -- grid items will be stretched within their space on the main axis. 
+flex-start -- grid items will move to start of their space on the main axis. 
+flex-end -- grid items will move to end of their space on the main axis. 
+center -- grid items will move to center of their space on the main axis. 
+We also have baseline value. */
+
+/* align-self */
+/* align-self property is used for cross axis alignment.
+align-self property targets individual grid item. 
+We have stretch(default), flex-start, flex-end, center values. */
+/* justify-self */
+/* justify-self property is used for main axis alignment.
+justify-self property targets individual grid item. 
+We have stretch(default), flex-start, flex-end, center values. */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.cell {
+  padding: 2rem;
+  border: 3px solid red;
+  background: #dedede;
+  text-align: center;
+  color: white;
+}
+.cell-1 {
+  background: green;
+}
+.cell-2 {
+  background: hotpink;
+  justify-self: center;
+}
+.cell-3 {
+  background: blue;
+}
+.cell-4 {
+  background: coral;
+}
+
+.container {
+  border: 5px solid black;
+  min-height: 80vh;
+  display: grid;
+  grid-template-columns: repeat(2, 200px);
+}

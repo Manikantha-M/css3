@@ -1,0 +1,27 @@
+/* position:absolute 
+The element which is having postion:absolute will be relative to the parent having position:relative. We can use top,bottom,right,left properties.
+When there is no parent having position:relative, then the element will be relative to the html element.
+The element is removed from the normal document flow, and no space is created for the element in the page layout. Its space will be used by following element.
+*/
+
+div {
+  border: 3px solid red;
+}
+.p1 {
+  background: blue;
+  color: white;
+}
+.p2 {
+  background: green;
+  color: white;
+  position: relative;
+}
+.special {
+  background: coral;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+}
+.sp2 {
+  background: black;
+}

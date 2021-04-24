@@ -1,0 +1,26 @@
+/* Em unit */
+/* em is a relative unit, depends on the parent. If there is no parent defined then default browser style will be the parent. */
+/* 
+1em = 16px default browser style
+1em = base value (16px) * 1 = 16px
+2em = base value (16px) * 2 = 32px
+2em = base value (10px) * 2 = 20px
+ */
+
+/* .one {
+  font-size: 2em;
+}
+.two {
+  font-size: 1em;
+} */
+
+/* define a parent using div */
+div {
+  font-size: 20px;
+}
+.one {
+  font-size: 2em;
+}
+.two {
+  font-size: 3em;
+}

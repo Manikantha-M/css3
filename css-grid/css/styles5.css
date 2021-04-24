@@ -1,0 +1,46 @@
+/* grid lines */
+/* grid lines -- row lines and column lines. 
+grid lines have positive index as well as negative index. index starts from 1,2,3... and -1,-2,-3,...*/
+/* We have grid-column-start, grid-column-end, grid-row-start, grid-row-end properties. */
+/* We have shorthands : 
+grid-column : start/end, grid-row: start/end */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.cell {
+  padding: 2rem;
+  border: 3px solid red;
+  background: #dedede;
+  text-align: center;
+  color: white;
+}
+.cell-1 {
+  background: green;
+  grid-column-start: 1;
+  grid-column-end: 3;
+  grid-row-start: 1;
+  grid-row-end: 3;
+}
+.cell-2 {
+  background: hotpink;
+}
+.cell-3 {
+  background: blue;
+}
+.cell-4 {
+  background: coral;
+  grid-column: 1/-1;
+}
+.cell-5 {
+  background: cyan;
+}
+.container {
+  border: 5px solid black;
+  display: grid;
+  grid-template-columns: 100px 100px 100px;
+  grid-template-rows: 100px 100px 100px;
+  gap: 1rem;
+}

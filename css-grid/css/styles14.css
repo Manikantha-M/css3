@@ -1,0 +1,40 @@
+/* auto-fill, auto-fit */
+/* The auto-fill creates additional empty columns if there is space available.  */
+/* The auto-fit ends the grid container with the last grid item, independently if there is room for another column. */
+/* Using minmax() with auto-fill or auto-fit, we can create a grid with responsive behavior. */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.cell {
+  padding: 2rem;
+  border: 3px solid red;
+  background: #dedede;
+  text-align: center;
+  color: white;
+}
+.cell-1 {
+  background: green;
+}
+.cell-2 {
+  background: hotpink;
+}
+.cell-3 {
+  background: blue;
+}
+.cell-4 {
+  background: coral;
+}
+
+.container {
+  border: 5px solid black;
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(100px, 1fr));
+}
+.container-2 {
+  border: 5px solid black;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
+}

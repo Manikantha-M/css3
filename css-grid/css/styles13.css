@@ -1,0 +1,34 @@
+/* minmax() */
+/* minmax() is used to set minimum size and maximum size of a grid track(row or column). 
+minmax(minsize, maxsize) */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.cell {
+  padding: 2rem;
+  border: 3px solid red;
+  background: #dedede;
+  text-align: center;
+  color: white;
+}
+.cell-1 {
+  background: green;
+}
+.cell-2 {
+  background: hotpink;
+}
+.cell-3 {
+  background: blue;
+}
+.cell-4 {
+  background: coral;
+}
+
+.container {
+  border: 5px solid black;
+  min-height: 80vh;
+  display: grid;
+  grid-template-columns: 1fr minmax(300px, 1fr) 1fr;
+}

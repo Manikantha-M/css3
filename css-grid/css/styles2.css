@@ -1,0 +1,39 @@
+/* unit auto, grid-template-rows */
+/* Unit auto -- Respective grid items occupies the available space. 
+grid-template-rows property : 
+Defines the rows of the grid with a space-separated list of values.*/
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.cell {
+  padding: 2rem;
+  border: 3px solid red;
+  background: #dedede;
+  text-align: center;
+  color: white;
+}
+.cell-1 {
+  background: green;
+}
+.cell-2 {
+  background: hotpink;
+}
+.cell-3 {
+  background: blue;
+}
+.cell-4 {
+  background: coral;
+}
+.cell-5 {
+  background: cyan;
+}
+.container {
+  border: 5px solid black;
+  min-height: 100vh;
+  display: grid;
+  grid-template-columns: 200px auto 400px;
+  grid-template-rows: 150px 100px auto;
+}

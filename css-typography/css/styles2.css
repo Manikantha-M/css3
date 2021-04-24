@@ -1,0 +1,11 @@
+/* Font stack and Generic font family */
+/* Generic font family includes the following fonts -- serif, sans-serif, cursive, fantasy, monospace */
+/* we can pass multiple fonts as a font stack. If the browser doesn't support the 1st font it tries the 2nd font and so on... */
+/* Generic font comes last in a font stack */
+
+body {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+h1 {
+  font-family: "Courier New", Courier, monospace;
+}

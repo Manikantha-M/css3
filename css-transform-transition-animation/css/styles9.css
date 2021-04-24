@@ -1,0 +1,36 @@
+/* animation-fill-mode, animation shorthand */
+/* animation-fill-mode property specifies what values are applied by the animation outside the time it is executing. When the value is forwards, then the element will retain the style values that is set by the last keyframe. If the value is backwards then the element will goes back to its original state. 
+animation shorthand :
+ animation: name duration timing-function delay iteration-count direction fill-mode */
+
+div {
+  width: 200px;
+  height: 200px;
+  background: blue;
+  opacity: 0;
+  animation-name: anim;
+  animation-duration: 5s;
+  animation-fill-mode: forwards;
+}
+@keyframes anim {
+  0% {
+    opacity: 0.1;
+    transform: translate(95px, 35px);
+  }
+  25% {
+    opacity: 0.25;
+    transform: translate(195px, 135px);
+  }
+  50% {
+    opacity: 0.5;
+    transform: translate(295px, 235px);
+  }
+  75% {
+    opacity: 0.75;
+    transform: translate(395px, 335px);
+  }
+  100% {
+    opacity: 1;
+    transform: translate(620px, 415px);
+  }
+}

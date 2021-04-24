@@ -1,0 +1,39 @@
+/* Linear Gradient */
+/* Using linear-gradient() as a value for background property, we can create linear gradients.
+The arguments for linear-gradient() are direction,colors.
+linear-gradient() takes at least two colors as arguments. 
+direction = to bottom (default), colors start from top and goes to bottom.
+direction = to top, colors start from bottom and goes to top.
+direction = to left, colors start form right and goes to left.
+direction = to right, colors start from left and goes to right.
+direction can be degrees, e.g. 315deg 
+direction = to top right, colors start from bottom-left and goes to top-right.
+colors could have percentages(or pixels or etc) next to them, 20% means, 20% of box will be occupied by respective solid color.
+100% means, entire box will be occupied by respective solid color.*/
+
+div {
+  width: 150px;
+  height: 150px;
+  margin: 20px;
+}
+.one {
+  background: linear-gradient(to top, red, green);
+}
+.two {
+  background: linear-gradient(blue, green, red, #3df);
+}
+.three {
+  background: linear-gradient(to left, teal, coral);
+}
+.four {
+  background: linear-gradient(315deg, red, green);
+}
+.five {
+  background: linear-gradient(to top right, red, green);
+}
+.six {
+  background: linear-gradient(blue 70%, yellow);
+}
+.seven {
+  background: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.9));
+}

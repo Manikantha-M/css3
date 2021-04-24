@@ -1,0 +1,17 @@
+/* CSS Pseudo-classes */
+/* A pseudo-class is used to define a special state of an element.
+:hover pseudo-class selector
+Style an element when a user mouses over it.*/
+div:hover{
+ color: green;
+}
+.header:hover{
+ color: white;
+ background: blue;
+ word-spacing: 5px;
+}
+a:hover{
+ text-decoration: none;
+ font-size: 20px;
+ background: pink;
+}

@@ -1,0 +1,30 @@
+/* transition property */
+/* transition means change over time. 
+transition-property, the property for which we would like to apply transition. 
+Also we have transition-duration property. 
+transition-delay, delays the transition for some time.*/
+
+div {
+  width: 150px;
+  height: 150px;
+  display: inline-block;
+  margin: 30px;
+}
+div:hover {
+  background: coral;
+}
+.one {
+  background: red;
+}
+.two {
+  background: green;
+}
+.three {
+  background: blue;
+  transition-property: background, border-radius;
+  transition-duration: 4s, 2s;
+  transition-delay: 2s;
+}
+.three:hover {
+  border-radius: 50%;
+}

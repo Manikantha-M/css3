@@ -1,0 +1,24 @@
+/* transition shorthand */
+/* transition: property(or all) duration transition-timing-function delay */
+
+div {
+  width: 150px;
+  height: 150px;
+  background: blue;
+  margin: 200px auto;
+  transition: background 2s linear 1s, border-radius 2s linear 1s,
+    transform 2s linear 1s;
+}
+div:hover {
+  background: coral;
+  border-radius: 50%;
+  transform: scale(2);
+}
+.one {
+  transition: all 4s linear 1s;
+}
+.one:hover {
+  background: seagreen;
+  border-radius: 80%;
+  transform: rotate(270deg);
+}

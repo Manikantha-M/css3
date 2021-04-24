@@ -1,0 +1,27 @@
+/* column layout using float property */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+div {
+  height: 150px;
+  width: 20vw;
+  float: left;
+}
+.one {
+  background: red;
+}
+.two {
+  background: blue;
+}
+.three {
+  background: green;
+}
+.four {
+  background: coral;
+}
+h1 {
+  clear: left;
+}

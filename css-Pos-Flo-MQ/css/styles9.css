@@ -1,0 +1,43 @@
+/* Pseudo elements */
+/* Pseudo elements are used to style the first letter, first line of an element.
+Pseudo elements are also used to insert content before or after the content of an element. 
+We have to use content property for Pseudo elements. content:"" 
+Pseudo elements ::before and ::after will not work on images.*/
+
+p::before {
+  content: "before";
+  font-weight: bold;
+  color: red;
+  font-size: 2rem;
+}
+p::after {
+  content: "after";
+  font-weight: bold;
+  color: red;
+  font-size: 2rem;
+}
+.p2::before {
+  content: "before";
+  font-weight: bold;
+  color: red;
+  font-size: 2rem;
+  display: block;
+  background: silver;
+}
+.p2::after {
+  content: "after";
+  font-weight: bold;
+  color: red;
+  font-size: 2rem;
+  display: block;
+  background: silver;
+}
+div::first-line {
+  color: green;
+}
+div::first-letter {
+  color: blue;
+  font-family: cursive;
+  font-size: 30px;
+  font-weight: bold;
+}

@@ -1,0 +1,32 @@
+/* display:flex, display:inline-flex */
+/* Flexbox is a one-dimensional layout method for laying out items in rows or columns. */
+/* The parent div will be called as flex container, children divs will be called as flex items. */
+/* When the value is flex, then the parent div retains as a block element. 
+When the value is inline-flex, then the parent div becomes inline-block element.*/
+
+.box {
+  font-size: 2rem;
+  padding: 2rem;
+  text-align: center;
+}
+.box-1 {
+  background: red;
+}
+.box-2 {
+  background: green;
+}
+.box-3 {
+  background: blue;
+}
+.box-4 {
+  background: cyan;
+}
+.box-5 {
+  background: deeppink;
+}
+
+.container {
+  border: 2px solid black;
+  display: flex;
+  display: inline-flex;
+}

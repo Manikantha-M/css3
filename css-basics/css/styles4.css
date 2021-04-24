@@ -1,0 +1,25 @@
+/* div and span elements */
+/* div and span are used for grouping */
+/* div is used for grouping multiple elements */
+/* span is used for grouping inline content */
+
+/* div {
+  color: red;
+  background: black;
+} */
+
+.one {
+  color: red;
+  background: black;
+}
+.two {
+  color: green;
+  background: yellow;
+}
+span {
+  text-transform: uppercase;
+}
+.three {
+  color: blue;
+  background: white;
+}

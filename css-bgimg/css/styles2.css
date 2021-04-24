@@ -1,0 +1,23 @@
+/* background-size */
+/* if the value is cover, then entire div will be covered by the image.
+if the value is contain, then image will be adjusted and repeated if there is extra space.
+*/
+div {
+  height: 300px;
+  color: white;
+  border: 2px solid red;
+}
+.big-img {
+  background: url("./big.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.small-img {
+  background: url("./small1.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.img3 {
+  background: url("./img3.jpg");
+  background-size: contain;
+}

@@ -1,0 +1,25 @@
+/* Last Rule, Specificity, Universal Selector */
+
+/* class selector has more Specificity than element selector */
+.special {
+  color: green;
+}
+/* The last rule defined overrides any previous rules */
+p {
+  color: red;
+}
+p {
+  color: blue;
+}
+/* id selector has more Specificity than class selector */
+#heading {
+  color: red;
+}
+.heading {
+  color: green;
+}
+
+/* universal selector has the least amount of specificity */
+* {
+  color: goldenrod;
+}

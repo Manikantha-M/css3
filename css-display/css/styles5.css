@@ -1,0 +1,9 @@
+/* list-style-type */
+/* When the value is none, it removes the marking of a list. */
+
+ul {
+  list-style-type: none;
+}
+ol {
+  list-style-type: none;
+}

@@ -1,0 +1,26 @@
+/* position:static, position:relative */
+/* position:static -- default, always positioned according to the normal flow of the document. 
+position:relative -- position relative to its normal position in the document flow. After setting position property to relative, we can use top,bottom,left,right properties to specify the relative position.
+e.g. top:30px -- the element moves 30px down relative to its normal position.
+left:30px -- the element moves 30px right relative to its normal position.
+Positions static and relative keep their natural space in the flow of the document, their space will not be used for other elements.*/
+
+div {
+  border: 2px solid red;
+}
+.p1 {
+  background: blue;
+  color: white;
+  position: relative;
+  top: 5px;
+  left: 20px;
+}
+.p2 {
+  background: green;
+  color: white;
+  position: relative;
+  top: 150px;
+}
+.p3 {
+  border: 2px solid black;
+}

@@ -1,0 +1,20 @@
+/* calc function
+calc()
+perform math operations + - * / 
+mix and match values
+*/
+
+* {
+  margin: 0;
+}
+.navbar {
+  background: blue;
+  height: 100px;
+  color: white;
+  font-size: 3rem;
+}
+/* for a 100vh, class navbar covered some height(100px), the remaining height can be calculated using calc() and be covered by banner class. */
+.banner {
+  background: red;
+  height: calc(100vh - 100px);
+}

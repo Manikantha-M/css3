@@ -1,0 +1,33 @@
+/* line-height, letter-spacing, word-spacing, text-decoration, text-transform */
+
+/* line-height
+if you give pixels as a value, then we will have that many pixels as line gap.
+if you give number as a value, then linegap will depend on font-size of the respective element. linegap=number*font-size.
+*/
+/* letter-spacing -- space between the letters */
+/* word-spacing -- space between the words */
+/* text-decoration -- used to decorate the text in a certain way */
+/* text-transform -- contain uppercase, lowercase, capitalize */
+body {
+  line-height: 20px;
+  line-height: 1.5;
+}
+.one {
+  letter-spacing: 5px;
+}
+.two {
+  word-spacing: 20px;
+  text-decoration: underline;
+  text-transform: capitalize;
+}
+a {
+  text-decoration: none;
+}
+h1 {
+  text-decoration: line-through;
+  text-transform: uppercase;
+}
+.three {
+  text-decoration: overline;
+  text-transform: lowercase;
+}

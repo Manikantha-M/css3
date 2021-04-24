@@ -1,0 +1,32 @@
+/* background-attachment */
+/* If the value is fixed, then background image will be fixed in its place and if we scroll text will move. 
+If the value is scroll(default value), then if we scroll both background image and text will move.*/
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+div {
+  min-height: 100vh;
+  color: white;
+  font-size: 5rem;
+  text-transform: uppercase;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.big-img {
+  background: url("./big.jpg");
+  background-size: cover;
+  background-attachment: fixed;
+}
+.img3 {
+  background: url("./img3.jpg");
+  background-size: cover;
+  background-attachment: fixed;
+}
+.img4 {
+  background: url("./img4.jpg");
+  background-size: cover;
+  background-attachment: scroll;
+}

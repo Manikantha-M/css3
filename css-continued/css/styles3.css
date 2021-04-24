@@ -1,0 +1,22 @@
+/* text-shadow, box-shadow, Browser Prefixes */
+/* The values for both text-shadow and box-shadow are x-axis,y-axis,blur,color. 
+Browser Prefixes : 
+CSS vendor prefixes, also known as CSS browser prefixes, are a way for browser makers to add support for new CSS features before those features are fully supported in all browsers. 
+It is a good practice to specify the vendor-prefixed version first and then the non-prefixed version, in order that the non-prefixed property will override the vendor-prefixed property, once it is implemented.*/
+
+h1 {
+  text-shadow: 5px 3px 3px red;
+}
+.box {
+  width: 200px;
+  height: 200px;
+  background: blue;
+  margin: 100px;
+  box-shadow: 5px 5px 3px orange;
+  transition: all 2s ease-in-out;
+}
+.box:hover {
+  -webkit-box-shadow: 30px 30px 5px 0px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: 30px 30px 5px 0px rgba(0, 0, 0, 0.75);
+  box-shadow: 30px 30px 5px 0px rgba(0, 0, 0, 0.75);
+}

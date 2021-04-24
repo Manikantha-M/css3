@@ -1,0 +1,48 @@
+/* display property */
+/* display: block, inline, inline-block */
+/* block element : 
+div, heading, paragraph are block elements. A block element spans full width and starts a new line. For a block element we can apply, width, height, margin-top,bottom,left,right properties. 
+inline element : 
+span, anchor are inline elements. An inline element spans only the content width and does not start a new line. For an inline element we can apply margin-left,right properties only. We cannot apply width,height,margin-top,bottom properties. 
+inline-block element : 
+An inline-block element spans only the content width and does not start a new line. For an inline-block element, we can apply width, height, margin-top,bottom,right,left properties. */
+/* Using display property we can convert one type of element to another type, between block,inline,inline-block. */
+
+.div1 {
+  background: red;
+  width: 50vw;
+  height: 30px;
+  margin: 20px;
+}
+.sp1 {
+  background: cyan;
+  margin-left: 20px;
+  margin-right: 20px;
+}
+h1 {
+  background: blue;
+  display: inline;
+  margin-left: 20px;
+  margin-right: 20px;
+}
+p {
+  background: blue;
+  display: inline-block;
+  width: 150px;
+  height: 40px;
+  margin: 20px;
+}
+a {
+  background: coral;
+  display: block;
+  width: 50vw;
+  height: 30px;
+  margin: 20px;
+}
+.sp2 {
+  background: green;
+  display: inline-block;
+  width: 100px;
+  height: 30px;
+  margin: 20px;
+}

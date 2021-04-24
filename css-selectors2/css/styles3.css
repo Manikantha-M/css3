@@ -1,0 +1,26 @@
+/* Anchor Pseudo-classes */
+/* :link pseudo-class selector
+For styling unvisited link. 
+:visited pseudo-class selector
+For styling a visited link.
+:active pseudo-class selector
+When the user clicks a link, the link will be active for that click duration. :active pseudo-class selector is used for styling for that active moment.*/
+
+a{
+ display: block;
+ font-size: 2rem;
+ margin-top: 20px;
+ text-decoration: none;
+}
+a:link{
+ color:saddlebrown;
+}
+a:visited{
+ color: seagreen;
+}
+a:hover{
+ background: silver;
+}
+a:active{
+ color:gold;
+}

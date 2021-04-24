@@ -1,0 +1,24 @@
+/* transform:translate() */
+/* translate() -- Defines a 2D translation. 
+translate3d() -- Defines a 3D translation. 
+specific -- translateX(), translateY(), translateZ(). 
+x-axis represents width, so translateX(x%) means x% of width of the element itself.
+y-axis represents height, so translateY(y%) means y% of height of the element itself.*/
+
+div {
+  width: 150px;
+  height: 150px;
+  display: inline-block;
+}
+.one {
+  background: red;
+  transform: translateX(50%);
+}
+.two {
+  background: blue;
+  transform: translateY(-40px);
+}
+.three {
+  background: green;
+  transform: translate(200px, 300px);
+}

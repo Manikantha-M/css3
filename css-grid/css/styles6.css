@@ -1,0 +1,38 @@
+/* Naming grid lines */
+/* We can name the grid lines. */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.cell {
+  padding: 2rem;
+  border: 3px solid red;
+  background: #dedede;
+  text-align: center;
+  color: white;
+}
+.cell-1 {
+  background: green;
+  grid-column: start/end;
+}
+.cell-2 {
+  background: hotpink;
+  grid-row: two/end;
+}
+.cell-3 {
+  background: blue;
+}
+.cell-4 {
+  background: coral;
+}
+.cell-5 {
+  background: cyan;
+}
+.container {
+  border: 5px solid black;
+  display: grid;
+  grid-template-columns: [start] 100px [two] 100px [three] 100px [end];
+  grid-template-rows: [start] 100px [two] 100px [three] 100px [end];
+  gap: 1rem;
+}

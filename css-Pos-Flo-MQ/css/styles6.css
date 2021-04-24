@@ -1,0 +1,31 @@
+/* position:sticky 
+A position sticky element toggles between relative value and fixed value.
+The position property here depends on the given threshold value(top,bottom,left,right).
+If the element has not yet reached the threshold, it retains in the relative position. 
+Once the threshold is reached, it becomes position fixed.
+The element stays within its parent, so the element that is currently fixed will move back to relative when it meets the opposite end of its container block.
+*/
+* {
+  margin: 0;
+}
+h2 {
+  background: skyblue;
+  padding: 10px;
+  position: sticky;
+  top: 0px;
+}
+div {
+  font-size: 1.5rem;
+}
+.div1 {
+  border: 3px solid green;
+}
+.div2 {
+  border: 3px solid green;
+}
+.div3 {
+  border: 3px solid green;
+}
+.div4 {
+  border: 3px solid green;
+}

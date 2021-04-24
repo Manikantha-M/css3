@@ -1,0 +1,46 @@
+/* justify-content */
+/* justify-content property is used for main axis alignment. It works the same for single row or multiple rows of grid items. */
+/* flex-start(default) -- grid items will move to start of the main axis. 
+flex-end -- grid items will move to end of the main axis.
+center -- grid items will move to center of the main axis. 
+We also have space-between, space-around, space-evenly values.*/
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.cell {
+  padding: 2rem;
+  border: 3px solid red;
+  background: #dedede;
+  text-align: center;
+  color: white;
+}
+.cell-1 {
+  background: green;
+}
+.cell-2 {
+  background: hotpink;
+}
+.cell-3 {
+  background: blue;
+}
+.cell-4 {
+  background: coral;
+}
+.cell-5 {
+  background: cyan;
+}
+.container {
+  border: 5px solid black;
+  min-height: 80vh;
+  display: grid;
+  grid-template-columns: repeat(3, 100px);
+  justify-content: flex-start;
+  justify-content: flex-end;
+  justify-content: center;
+  justify-content: space-between;
+  justify-content: space-around;
+  justify-content: space-evenly;
+}

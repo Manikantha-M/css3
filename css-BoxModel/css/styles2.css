@@ -1,0 +1,22 @@
+/* margin */
+
+* {
+  margin: 0;
+}
+.one {
+  background: red;
+  color: white;
+  margin: 3rem;
+}
+.two {
+  background: blue;
+  color: white;
+  margin: 20px 40px;
+  margin: 4rem 16px 50px 10px;
+}
+
+/* If the margin property has one value, then all four sides will have the same margin. */
+/* If the margin property has two values, then top and bottom take first value and right and left take the second value. */
+/* If the margin property has four values,
+top right bottom left
+*/

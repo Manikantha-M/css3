@@ -1,0 +1,40 @@
+/* order property */
+/* Order property is used to arrange grid items in a certain order. 
+All grid items by default have order value 0. Values can be positive and negative also.*/
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.cell {
+  padding: 2rem;
+  border: 3px solid red;
+  background: #dedede;
+  text-align: center;
+  color: white;
+}
+.cell-1 {
+  background: green;
+  order: 1;
+}
+.cell-2 {
+  background: hotpink;
+  order: 2;
+}
+.cell-3 {
+  background: blue;
+}
+.cell-4 {
+  background: coral;
+  order: -1;
+}
+.cell-5 {
+  background: cyan;
+}
+.container {
+  border: 5px solid black;
+  display: grid;
+  grid-template-columns: 100px 100px 100px;
+  grid-template-rows: 100px 100px;
+}

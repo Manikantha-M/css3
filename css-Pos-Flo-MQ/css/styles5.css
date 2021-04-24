@@ -1,0 +1,28 @@
+/* position:fixed 
+This is going to be relative to viewport(screen) only. We can use top,bottom,right,left properties.
+The element will be fixed, and will not move as we scroll.
+The element is removed from the normal document flow, and no space is created for the element in the page layout.*/
+
+* {
+  margin: 0;
+}
+h1 {
+  background: deeppink;
+  text-align: center;
+  position: fixed;
+  width: 100vw;
+  top: 0px;
+}
+.p1 {
+  background: silver;
+  margin-top: 40px;
+}
+.p2 {
+  background: silver;
+  margin-top: 3px;
+}
+div {
+  height: 100vh;
+  width: 50vw;
+  background: springgreen;
+}
