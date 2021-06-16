@@ -1,7 +1,7 @@
 /* position:fixed 
 This is going to be relative to viewport(screen) only. We can use top,bottom,right,left properties.
 The element will be fixed, and will not move as we scroll.
-The element is removed from the normal document flow, and no space is created for the element in the page layout.*/
+The element is removed from the normal document flow, and no space is created for the element in the page layout. Its space will be used by the following element. */
 
 * {
   margin: 0;
