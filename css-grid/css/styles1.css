@@ -4,7 +4,7 @@
 /* Parent div will be called as grid container. Children divs will be called as grid items. 
 display:grid -- generates a block level grid. 
 grid-template-columns property :
-Defines the columns of the grid with a space-separated list of values. */
+Defines the columns of the grid with a space-separated list of values. Here values represent the width of each column. */
 
 * {
   margin: 0;

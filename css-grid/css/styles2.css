@@ -1,7 +1,7 @@
 /* unit auto, grid-template-rows */
 /* Unit auto -- Respective grid items occupies the available space. 
 grid-template-rows property : 
-Defines the rows of the grid with a space-separated list of values.*/
+Defines the rows of the grid with a space-separated list of values. Here values represent the height of each row. */
 
 * {
   margin: 0;
